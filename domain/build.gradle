@@ -1,0 +1,24 @@
+import com.trian.dependecies.*
+
+plugins {
+    id 'com.android.library'
+
+}
+apply from:'../commons.gradle'
+android {
+    defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(Modules.common)
+
+    implementation Libs.AndroidX.Room.ktx
+    implementation Libs.AndroidX.Room.runtime
+    kapt Libs.AndroidX.Room.Compiler
+
+}
