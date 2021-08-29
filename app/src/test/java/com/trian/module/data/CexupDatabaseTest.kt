@@ -3,11 +3,7 @@ package com.trian.module.data
 
 import com.google.gson.Gson
 import com.trian.data.local.room.CexupDatabase
-import com.trian.data.local.room.MeasurementDao
-import com.trian.data.local.room.NurseDao
 import com.trian.data.local.room.UserDao
-import com.trian.domain.entities.Measurement
-import com.trian.domain.entities.Nurse
 import com.trian.domain.entities.User
 import com.trian.domain.models.BloodPressureModel
 import dagger.hilt.android.testing.HiltAndroidRule

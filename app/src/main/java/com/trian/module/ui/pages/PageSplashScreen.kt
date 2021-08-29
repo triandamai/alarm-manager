@@ -5,11 +5,11 @@ import android.os.Handler
 import android.os.Looper
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.trian.common.utils.route.Routes
+import com.trian.module.ui.components.MyTimePicker
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -23,18 +23,25 @@ fun PageSplashScreen(
     nav:NavHostController,
     scope:CoroutineScope,
     modifier: Modifier = Modifier,
-    scaffoldState: ScaffoldState = rememberScaffoldState()
+    scaffoldState: ScaffoldState = rememberScaffoldState(),
+            onDatePicker:(hour:Int,minute:Int)->Unit,
 ) {
-
-    Handler(Looper.getMainLooper())
-        .postDelayed({
-            nav.navigate(Routes.ONBOARD.name)
-    },1000)
+var hours by remember{ mutableStateOf(0)}
+var minutes by remember{ mutableStateOf(0)}
+//    Handler(Looper.getMainLooper())
+//        .postDelayed({
+//            nav.navigate(Routes.ONBOARD.name)
+//    },1000)
     Column {
         Text(text = "Ini Splash")
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = { onDatePicker(hours,minutes) }) {
             Text(text = "Ini Splash")
         }
+        MyTimePicker(onDatePicker = {
+           hour, minute->
+            minutes =minute
+            hours = hour
+        })
     }
 
 

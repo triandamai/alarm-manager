@@ -1,7 +1,7 @@
 package com.trian.dependecies
 
 object ApplicationId{
-    const val id = "com.trian.app"
+    const val id = "com.trian.alarm"
 }
 
 object Modules{
@@ -13,12 +13,7 @@ object Modules{
     const val component = ":component"
 
     //features
-    const val microlife = ":features:microlife"
-    const val smartwatch = ":features:smartwatch"
-    const val oximeter_ring = ":features:oximeter_ring"
-    const val bmi = ":features:bmi"
-    const val waist = ":features:waist"
-    const val camera = ":features:camera"
+
 }
 
 object Releases{
@@ -67,6 +62,7 @@ object Libs{
             const val Ui = "androidx.compose.ui:ui:${Versions.compose_version}"
             const val UiMaterial ="androidx.compose.material:material:${Versions.compose_version}"
             const val UiPreview ="androidx.compose.ui:ui-tooling-preview:${Versions.compose_version}"
+            const val UiTooling ="androidx.compose.ui:ui-tooling:${Versions.compose_version}"
             const val ViewModel = "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07"
             const val RuntimeLiveData = "androidx.compose.runtime:runtime-livedata:${Versions.compose_version}"
             const val Navigation = "androidx.navigation:navigation-compose:$test_navigation"

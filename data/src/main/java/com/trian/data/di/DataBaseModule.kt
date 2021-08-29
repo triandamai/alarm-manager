@@ -9,7 +9,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import javax.inject.Named
 
 
 @InstallIn(SingletonComponent::class)
@@ -24,4 +23,6 @@ object DataBaseModule {
         CexupDatabase::class.java,DATABASE_NAME
     ).fallbackToDestructiveMigration()
         .build()
+
+
 }
