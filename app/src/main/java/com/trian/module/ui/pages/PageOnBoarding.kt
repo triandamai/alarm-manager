@@ -19,7 +19,11 @@ import com.trian.common.utils.route.Routes
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
-
+/**
+ * OnBoard
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @ExperimentalPagerApi
 @Composable
 fun PageOnBoarding(nav: NavHostController,scope:CoroutineScope) {

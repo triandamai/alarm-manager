@@ -13,6 +13,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import com.trian.common.utils.route.Routes
 import kotlinx.coroutines.CoroutineScope
+/**
+ * Login Page
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 
 @Composable
 fun PageLogin(nav: NavHostController,scope:CoroutineScope,modifier: Modifier = Modifier) {

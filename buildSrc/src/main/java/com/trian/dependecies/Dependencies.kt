@@ -1,5 +1,9 @@
 package com.trian.dependecies
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 object ApplicationId{
     const val id = "com.trian.alarm"
 }

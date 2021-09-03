@@ -8,7 +8,11 @@ import java.net.ConnectException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 suspend fun <T : Any> safeApiCall(call: suspend () -> Response<T>): NetworkStatus<T> {
     try {
         val response = call.invoke()

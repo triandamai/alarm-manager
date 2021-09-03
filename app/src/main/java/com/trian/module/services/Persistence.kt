@@ -8,7 +8,11 @@ import android.content.SharedPreferences
 import android.util.Log
 
 import java.util.*
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 class Persistence{
 
     var context: Context?=null

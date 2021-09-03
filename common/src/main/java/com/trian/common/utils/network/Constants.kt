@@ -1,5 +1,9 @@
 package com.trian.common.utils.network
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 const val BASE_URL = "https://api.football-data.org/v2/"
 
 // Network Messages

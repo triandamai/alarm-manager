@@ -4,6 +4,11 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
+/**
+ * Register
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @Composable
 fun PageRegister() {
 

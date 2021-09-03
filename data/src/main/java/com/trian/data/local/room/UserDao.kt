@@ -4,6 +4,11 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.trian.domain.entities.User
 
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
 @Dao
 interface UserDao {

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1630671519722.xml" value="0.16385135135135134" />
+        <entry key="../../../../layout/compose-model-1630671566246.xml" value="0.20277777777777778" />
+        <entry key="../../../../layout/compose-model-1630671684570.xml" value="0.16385135135135134" />
+        <entry key="../../../../layout/compose-model-1630671767550.xml" value="0.20277777777777778" />
+        <entry key="../../../../layout/compose-model-1630671853621.xml" value="0.7906137184115524" />
+        <entry key="../../../../layout/compose-model-1630675153793.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1630675574285.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1630678315290.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1630678767920.xml" value="0.10462962962962963" />
+        <entry key="../../../../layout/compose-model-1630680084401.xml" value="0.375" />
+        <entry key="../../../../layout/compose-model-1630681376466.xml" value="0.6042780748663101" />
+        <entry key="../../../../layout/compose-model-1630681383969.xml" value="0.10462962962962963" />
+        <entry key="../../../../layout/compose-model-1630681407382.xml" value="0.14675324675324675" />
+        <entry key="../../../../layout/compose-model-1630681436305.xml" value="0.10462962962962963" />
+        <entry key="../../../../layout/compose-model-1630681444728.xml" value="0.10462962962962963" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>

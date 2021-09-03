@@ -15,7 +15,11 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @Module
 @InstallIn(SingletonComponent::class, ActivityComponent::class)
 object DataModule {

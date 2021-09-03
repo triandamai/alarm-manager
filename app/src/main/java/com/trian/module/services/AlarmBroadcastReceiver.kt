@@ -7,7 +7,11 @@ import android.os.Build
 import android.util.Log
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @AndroidEntryPoint
 class AlarmBroadcastReceiver : BroadcastReceiver() {
     @Inject

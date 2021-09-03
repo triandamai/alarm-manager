@@ -13,6 +13,11 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @Module
 @InstallIn(SingletonComponent::class, ActivityComponent::class)
 object NetworkModule {

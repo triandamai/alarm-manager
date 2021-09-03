@@ -26,7 +26,11 @@ import androidx.core.app.RemoteInput
 
 import com.trian.module.R
 import java.util.*
-
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 class Notifications {
 
     val NOTIFICATION_ID = 1

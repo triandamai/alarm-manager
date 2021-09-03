@@ -16,7 +16,11 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.*
 import kotlin.concurrent.schedule
-
+/**
+ * Splash Screen Page
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @SuppressLint("CoroutineCreationDuringComposition")
 @Composable
 fun PageSplashScreen(

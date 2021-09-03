@@ -3,8 +3,12 @@ package com.trian.domain.entities
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
 @Entity(tableName = "tb_users")
-
 data class User (
     @PrimaryKey(autoGenerate = true)
     var id_user:Int?,

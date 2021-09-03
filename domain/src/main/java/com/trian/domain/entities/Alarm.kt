@@ -4,11 +4,15 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-
-@Entity(tableName = "alarm_table")
+/**
+ * Entry point Activity of App
+ * Author Trian Damai
+ * Created at 03/09/2021
+ * **/
+@Entity(tableName = "tb_alarm")
 data class Alarm(
-    @PrimaryKey
-    var alarmId: Int,
+    @PrimaryKey(autoGenerate = true)
+    var alarmId: Int?,
     var hour: Int,
     var minute: Int,
     var started: Boolean,
