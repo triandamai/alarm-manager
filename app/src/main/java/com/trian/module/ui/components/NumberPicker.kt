@@ -24,6 +24,7 @@ fun MyNumberPicker(min:Int,max:Int,onValueChange:(old:Int,new:Int)->Unit) {
         view->
         view.minValue = min
         view.maxValue = max
+        view.setFormatter { value -> String.format("%02d", value); }
         view.setOnValueChangedListener { 
                 _, oldval, newval ->
             onValueChange(oldval,newval) }

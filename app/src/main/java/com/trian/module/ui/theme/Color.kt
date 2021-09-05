@@ -14,6 +14,6 @@ val Teal200 = Color(0xFF03DAC5)
 
 val SelectedColor = Color(0xFFb078ff)
 val SelectedColorTrack = Color(0xFFC19EF3)
-val BackgroundCOlor = Color(0xFFf6f6f6)
+val BackgroundColor = Color(0xFFf6f6f6)
 val TextColor = Color(0xFF383268)
 val Sunny = Color(0xFFfdca23)

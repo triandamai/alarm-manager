@@ -14,12 +14,13 @@ import dagger.hilt.components.SingletonComponent
  * Author Trian Damai
  * Created at 03/09/2021
  * **/
+
 @InstallIn(SingletonComponent::class)
 @Module
 object UtilityModule {
     //for test
     @Provides
-    fun providePersistence(@ApplicationContext appContext: Context): com.trian.module.services.Persistence {
+    fun providePersistence(@ApplicationContext appContext: Context): Persistence {
         return Persistence(appContext)
     }
 }
